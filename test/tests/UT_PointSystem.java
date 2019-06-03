@@ -15,28 +15,25 @@ public class UT_PointSystem extends AbstractTest {
 
 
 Deed deed;
-User u;
-GUIHandler gh;
 
 
 
 
 public void prepare(){
-gh = new GUIHandler();
-u = new User();
+	
+
 deed=new Deed();
 
+deed.setAssignedWeighting(50);
 }
-
 public boolean runTest() throws Exception {
-	deed.setAssignedWeighting(50);
-TestUtils.assertEqual(50,deed.getAssignedWeighting());
+	
+	TestUtils.assertEqual(50,deed.getAssignedWeighting());
 
 return true;
 }
 
 public void cleanup() {
-	 gh = null;
-	 u = null;
+	 deed=null;
 }
 }

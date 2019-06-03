@@ -46,6 +46,7 @@ dcat.setDeedCatName("abc");
 }
 public boolean runTest() throws Exception {
 		
+
 		TestUtils.assertEqual(1,dcat.getdcatid());
 		TestUtils.assertEqual(15,u.getUserID());
 		TestUtils.assertEqual(2,dcat.getcategories());
