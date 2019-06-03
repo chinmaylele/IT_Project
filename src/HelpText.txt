@@ -1,0 +1,5 @@
+Welcome to the KUDOS application. 
+
+
+
+If you are still stuck with how to use this app, open the Kudos User Guide:

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="Registration" scrollableY="false" name="Registration">
+  <component type="Label" text=" " name="lblBuffer">
+    <layoutConstraint insets="1.9051647mm 5.0mm auto 5.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Label" preferredSize="14.817951mm 14.394581mm" icon="resFile:title.jpg 1" name="lblHeading">
+    <layoutConstraint insets="11.557884% 46.257042% auto 35.955048%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+</component>
