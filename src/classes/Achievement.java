@@ -28,9 +28,11 @@ public class Achievement {
 	// GETTERS & SETTERS ----------------------------------------------------------------
 	public int getAchievementID() {
 		return achievementID;
+		
 	}
 	public void setAchievementID(int achivementID) {
 		this.achievementID = achivementID;
+		System.out.println("Hello");
 	}
 	public String getAchievementName() {
 		return achievementName;
